@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Event Table" max_length="40" name="x_845653_event_man_event_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Other" max_length="100" name="other" type="string"/>
+        <element attributes="encode_utf8=false" label="Proposed by" max_length="32" name="proposed_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Event" max_length="40" name="type_of_event" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="Online" sequence="2" value="online"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="proposed_by"/>
+        </index>
+    </element>
+</database>

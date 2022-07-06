@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>true</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>false</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_845653_event_man_event_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_845653_event_man_event_table">date&lt;javascript:gs.beginningOfTomorrow()^EQ<item endquery="false" field="date" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:gs.beginningOfTomorrow()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Only events in the <span style="color: #ff0000;"><strong><span style="font-size: 10pt;">future</span></strong></span>!</p>]]></message>
+        <name>FutureEvents</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 13:02:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f63e60dd07a4511061f5fa7f7c1ed0e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FutureEvents</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Manager" source="x_845653_event_man">7d182cdd07a0511061f5fa7f7c1ed0cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Manager">7d182cdd07a0511061f5fa7f7c1ed0cd</sys_scope>
+        <sys_update_name>sys_script_f63e60dd07a4511061f5fa7f7c1ed0e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 13:06:09</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f63e60dd07a4511061f5fa7f7c1ed0e6"/>
+</record_update>

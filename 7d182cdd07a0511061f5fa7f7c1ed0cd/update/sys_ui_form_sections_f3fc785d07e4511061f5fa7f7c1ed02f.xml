@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f3fc785d07e4511061f5fa7f7c1ed02f" sys_domain="global" table="x_845653_event_man_event_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 14:04:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7fc785d07e4511061f5fa7f7c1ed031</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_845653_event_man_event_table" name="x_845653_event_man_event_table" sys_domain="global" view="Default view">f3fc785d07e4511061f5fa7f7c1ed02f</sys_ui_form>
+            <sys_ui_section caption="Event" display_value="Event" name="x_845653_event_man_event_table" sys_domain="global" view="Default view">70ca245907a4511061f5fa7f7c1ed0c3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 14:04:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 14:04:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3fc785d07e4511061f5fa7f7c1ed032</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_845653_event_man_event_table" name="x_845653_event_man_event_table" sys_domain="global" view="Default view">f3fc785d07e4511061f5fa7f7c1ed02f</sys_ui_form>
+            <sys_ui_section caption="Description of the Event" display_value="Description of the Event" name="x_845653_event_man_event_table" sys_domain="global" view="Default view">77fc785d07e4511061f5fa7f7c1ed02e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 14:04:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_845653_event_man_event_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 14:04:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3fc785d07e4511061f5fa7f7c1ed02f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_845653_event_man_event_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Event Manager" source="x_845653_event_man">7d182cdd07a0511061f5fa7f7c1ed0cd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Manager">7d182cdd07a0511061f5fa7f7c1ed0cd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f3fc785d07e4511061f5fa7f7c1ed02f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 14:04:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

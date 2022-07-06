@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="comment" label="Comment" language="en" table="x_845653_event_man_event_review">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>comment</element>
+            <help/>
+            <hint/>
+            <label>Comment</label>
+            <language>en</language>
+            <name>x_845653_event_man_event_review</name>
+            <plural>Comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 12:41:52</sys_created_on>
+            <sys_id>051aa4d907a4511061f5fa7f7c1ed011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comment</sys_name>
+            <sys_package display_value="Event Manager" source="x_845653_event_man">7d182cdd07a0511061f5fa7f7c1ed0cd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Manager">7d182cdd07a0511061f5fa7f7c1ed0cd</sys_scope>
+            <sys_update_name>sys_documentation_x_845653_event_man_event_review_comment_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 12:41:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
